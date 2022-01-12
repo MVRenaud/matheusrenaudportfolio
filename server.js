@@ -11,7 +11,7 @@ app.disable('x-powered-by');
 
 
 // set application variable "port"
-app.set("port", process.env.PORT || 4000);
+//app.set("port", process.env.PORT || 4000);
 
 // middleware stack
 app.use(express.urlencoded({ extended: true }));
@@ -59,6 +59,8 @@ app.get("*", (req, res) => {
 
 // const port = process.env.NODE_ENV === 'production' ? 'https://matheusrenaudportfolio.herokuapp.com' : 'http://localhost:4000';
 
-app.listen(app.get("port"), () => {
-  console.log("Server started on port " + app.get("port"));
+const port = process.env.PORT || 4000
+
+app.listen(port, () => {
+  console.log("Server started on port " + port);
 });
