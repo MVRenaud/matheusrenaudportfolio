@@ -54,7 +54,9 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname + "/client/build/index.html"));
 });
 
-const port = process.env.PORT || 4000
+// const port = process.env.PORT || 4000
+
+const port = process.env.NODE_ENV === 'production' ? 'https://matheusrenaudportfolio.herokuapp.com' : 'http://localhost:4000';
 
 app.listen(port, () => {
   console.log("Server started on port " + port);
