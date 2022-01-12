@@ -5,8 +5,9 @@
   "main": "index.js",
   "engines": {
     "node": "14.17.0",
-    "version": "7.19.1"
+    "npm": "7.19.1"
   },
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server",
