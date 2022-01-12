@@ -1,0 +1,52 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "bootstrap";
+
+
+
+.loginClass{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    
+}
+
+@include media-breakpoint-up(sm) {
+        .loginClass{
+        left: 18%;
+        
+    }
+}
+
+@include media-breakpoint-up(md) {
+        .loginClass{
+        top: 25%;    
+        left: 25%;
+        
+    }
+}
+
+@include media-breakpoint-up(lg) {
+        .loginClass{
+        top: 28%;    
+        left: 20%;
+        
+    }
+}
+
+@include media-breakpoint-up(xl) {
+        .loginClass{
+        top: 28%;    
+        left: 22.5%;
+        
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+        .loginClass{
+        top: 30%;    
+        left: 35%;
+        
+    }
+}

@@ -1,0 +1,81 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "bootstrap";
+
+.footer{
+    .container {
+      .text-center {
+        .footer-text {
+          .footer-image {
+            background-image: url(../../images/footer-image1.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            height: 60vh;
+            bottom: -19vh;
+          }
+
+          .footerColorClass {
+              background-color: black;
+            }
+          
+        }
+      }
+  }
+}
+
+
+
+
+@include media-breakpoint-up(md){
+    footer {
+        section {
+            section {
+                .footer-image {
+                height: 60vh;
+                bottom: -19vh;
+                }
+            }
+        }
+  }
+}
+
+@include media-breakpoint-up(lg){
+    footer {
+        section {
+            section {
+                .footer-image {
+                height: 60vh;
+                bottom: -19vh;
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(xl){
+    footer {
+        section {
+            section {
+                .footer-image {
+                height: 60vh;
+                bottom: -19vh;
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(xxl){
+    footer {
+    section {
+      section {
+        .footer-image {
+          height: 60vh;
+          bottom: -19vh;
+        }
+      }
+    }
+  }
+}

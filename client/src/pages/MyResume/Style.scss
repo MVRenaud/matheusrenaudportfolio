@@ -1,0 +1,47 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "bootstrap";
+
+div{
+    .header_card{
+        position: absolute;
+        top: 20%;
+        div{
+            div{
+               .profileImg{
+                height: 30vh;
+               } 
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(sm){
+    div{
+        .header_card{
+            top: 23%;
+            left: 5%;
+        }
+    }   
+}
+
+@include media-breakpoint-up(md){
+    div{
+        .header_card{
+            width: 80%;
+            top: 23%;
+            left: 10%;
+        }
+    } 
+}
+
+@include media-breakpoint-up(md){
+    div{
+        .header_card{
+            width: 75%;
+            top: 36%;
+            left: 10%;
+        }
+    } 
+}

@@ -1,0 +1,47 @@
+@import "bootstrap";
+
+.emailClass{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    
+}
+
+@include media-breakpoint-up(sm) {
+        .emailClass{
+        left: 18%;
+        
+    }
+}
+
+@include media-breakpoint-up(md) {
+        .emailClass{
+        top: 25%;    
+        left: 25%;
+        
+    }
+}
+
+@include media-breakpoint-up(lg) {
+        .emailClass{
+        top: 28%;    
+        left: 20%;
+        
+    }
+}
+
+@include media-breakpoint-up(xl) {
+        .emailClass{
+        top: 28%;    
+        left: 22.5%;
+        
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+        .emailClass{
+        top: 30%;    
+        left: 35%;
+        
+    }
+}

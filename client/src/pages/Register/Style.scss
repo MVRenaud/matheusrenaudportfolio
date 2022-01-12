@@ -1,0 +1,47 @@
+@import "bootstrap";
+
+.registerClass{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    
+}
+
+@include media-breakpoint-up(sm) {
+        .registerClass{
+        left: 18%;
+        
+    }
+}
+
+@include media-breakpoint-up(md) {
+        .registerClass{
+        top: 20%;    
+        left: 25%;
+        
+    }
+}
+
+@include media-breakpoint-up(lg) {
+        .registerClass{
+        top: 28%;    
+        left: 20%;
+        
+    }
+}
+
+@include media-breakpoint-up(xl) {
+        .registerClass{
+        top: 28%;    
+        left: 22.5%;
+        
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+        .registerClass{
+        top: 30%;    
+        left: 35%;
+        
+    }
+}

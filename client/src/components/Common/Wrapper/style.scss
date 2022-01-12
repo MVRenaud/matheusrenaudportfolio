@@ -1,0 +1,48 @@
+@import "bootstrap";
+
+
+
+
+
+.wrapperLog{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    
+}
+
+@include media-breakpoint-up(sm) {
+        .wrapperLog{
+        left: 18%;
+        
+    }
+}
+
+@include media-breakpoint-up(md) {
+        .wrapperLog{
+        top: 20%;    
+        left: 25%;
+        
+    }
+}
+
+@include media-breakpoint-up(lg) {
+        .wrapperLog{
+        left: 18%;
+        
+    }
+}
+
+@include media-breakpoint-up(xl) {
+        .wrapperLog{
+        left: 23%;
+        
+    }
+}
+
+@include media-breakpoint-up(xl) {
+        .wrapperLog{
+        left: 35%;
+        
+    }
+}

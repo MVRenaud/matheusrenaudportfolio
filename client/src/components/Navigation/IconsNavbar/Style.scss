@@ -1,0 +1,45 @@
+@import "bootstrap";
+
+.navbar2 {
+    font-size: 2rem;
+    text-decoration: none;
+    position: absolute;
+    bottom: 5vh;
+    left: 36%;
+  }
+
+@include media-breakpoint-up(sm){
+    .navbar2 {
+      bottom: 5vh;
+      left: 38%;
+    }
+}
+
+@include media-breakpoint-up(md){
+    .navbar2 {
+      bottom: 5vh;
+      left: 40%;
+    }
+}
+
+@include media-breakpoint-up(lg){
+    .navbar2 {
+      font-size: 2rem;
+      bottom: 42vh;
+      left: 92%;
+    }
+}
+
+@include media-breakpoint-up(xl){
+
+}
+
+@include media-breakpoint-up(xxl){
+    .navbar2 {
+      font-size: 2rem;
+      color: lightgrey;
+      position: absolute;
+      bottom: 49vh;
+      left: 92%;
+    }
+}
