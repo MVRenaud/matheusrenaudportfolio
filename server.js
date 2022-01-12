@@ -10,9 +10,6 @@ const app = express();
 app.disable('x-powered-by');
 
 
-// set application variable "port"
-app.set("port", process.env.PORT || 4000);
-
 // middleware stack
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -57,6 +54,8 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname + "/client/build/index.html"));
 });
 
-app.listen(app.get("port"), () => {
-  console.log("Server started on port " + app.get("port"));
+const port = process.env.PORT || 4000
+
+app.listen(port, () => {
+  console.log("Server started on port " + port);
 });
