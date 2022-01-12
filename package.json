@@ -1,0 +1,19 @@
+{
+  "name": "matheusrenaudportfolio",
+  "version": "1.0.0",
+  "description": "my portfolio resume project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MVRenaud/matheusrenaudportfolio.git"
+  },
+  "author": "Matheus Renaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MVRenaud/matheusrenaudportfolio/issues"
+  },
+  "homepage": "https://github.com/MVRenaud/matheusrenaudportfolio#readme"
+}
