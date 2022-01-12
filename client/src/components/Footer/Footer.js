@@ -3,7 +3,7 @@ import "./Style.scss"
 
 function Footer() {
     return (
-        <div className='footer'>
+        <div className='footer' id='footer'>
             <footer className="container">
                 <section className="text-center">
                     <section className="m-0 footer-text">

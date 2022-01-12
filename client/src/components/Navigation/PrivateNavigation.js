@@ -11,7 +11,7 @@ export default function PrivateNavigation() {
           <Nav.Link   >Home</Nav.Link>           
         </LinkContainer>
         <LinkContainer className="mx-3 fs-4 text-primary" to ="/projects"   >
-          <Nav.Link   >Projects</Nav.Link>           
+          <Nav.Link  href='#footer' >Contact</Nav.Link>           
         </LinkContainer>
         <LinkContainer className="mx-3 fs-4 text-primary" to ="/myresume"   >
           <Nav.Link >MyResume</Nav.Link>           
