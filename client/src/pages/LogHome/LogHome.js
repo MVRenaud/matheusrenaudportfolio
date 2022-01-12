@@ -84,35 +84,17 @@ function LogHome() {
         <section className="container main-container my-5 p-3" id="developer">
             <div className="row justify-content-sm-between">
             <div className="col-lg-12 fs-3 text">
-                <h1>Front End Developer</h1>
+                <h1>Full Stack Developer</h1>
                 <br />
                 <p>
-                First impressions mean everything in business and a good website
-                design is the key to exploiting this. In my opinion a great site
-                is not measured by looks alone, but also by functionality and
-                usability.
+                As a recent graduate from DCI Digit Career Institute with a Associate of Technology in Web Development, I am extremely interested in the Full Stack Developer opportunity .  I am confident that I am well-prepared to be a valuable contributor to company growth and success.
+In today's economy, there's no time to waste on workers who lack the necessary skills and motivation. I've got what you need.
                 </p>
                 <p>
-                I am proficient in HTML and I have a basic knowledge of structured
-                programming languages and knowledge of system development,
-                Processors, CSS and JavaScript.
+                Through my academic journey, l I applied a strong focus on building my Node.js and React abilities. I am detail-oriented and meticulous when managing competing priorities within tight deadlines. I work best in roles where utilizing javascript allows me to make a positive impact while using creative problem-solving to resolve issues and achieve goals.
                 </p>
                 <p>
-                My objective is to create and maintain optimally functional
-                websites and applications as tools in achieving the company’s
-                mission and vision. As a part of a competent web developing team,
-                I intend to generate maximum traffic to these projects by
-                showcasing high-quality SEO content, user- and mobile-friendly
-                navigation, and promotion to as many social media platforms as
-                possible. One of my goals includes constantly improving my
-                expertise in web development.
-                </p>
-                <p>
-                I can prepare documents and keep accurate daily reports. I am
-                self-motivated, I use good judgment and I have the ability to
-                manage my time wisely to meet deadlines. I have excellent verbal
-                and written skills that make it easy to understand information and
-                to articulate my ideas clearly, so others can understand.
+                My academic strengths have greatly contributed to the development of my teamwork, time-management and problem-solving skills. I bring clear and effective communicating to build professional connections with co-workers, management and customers. I would welcome the opportunity to further discuss the details of my experience and attributes which I believe will be an asset to the your team. Please review my resume for additional insight into my background. Thank you for your time and consideration.
                 </p>
             </div>
             <div
