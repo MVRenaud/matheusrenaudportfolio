@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 exports.weatherController = async (req, res) =>{
-    const city="Tehran";
+    const city="Cologne";
     try {
         const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.APIWEATHERKEY}&units=metric`, {proxy: false});
 

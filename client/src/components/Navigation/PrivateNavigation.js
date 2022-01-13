@@ -1,5 +1,5 @@
 
-import { Nav } from 'react-bootstrap';
+import { Nav, NavItem } from 'react-bootstrap';
 import { LinkContainer} from 'react-router-bootstrap'
 
 
@@ -8,7 +8,7 @@ export default function PrivateNavigation() {
     <>
         
         <LinkContainer className="mx-3 fs-4 text-primary" to ="/loghome"  >
-          <Nav.Link   >Home</Nav.Link>           
+          <Nav.Link >Home</Nav.Link>           
         </LinkContainer>
         <LinkContainer className="mx-3 fs-4 text-primary" to ="/myresume"   >
           <Nav.Link >MyResume</Nav.Link>           
@@ -16,7 +16,6 @@ export default function PrivateNavigation() {
         <LinkContainer className="mx-3 fs-4 text-primary" to ="/email"   >
           <Nav.Link >Email</Nav.Link>           
         </LinkContainer>
-        
         <LinkContainer className="mx-3 fs-4 text-primary" to ="/logout"   >
           <Nav.Link   >Logout</Nav.Link>           
         </LinkContainer>

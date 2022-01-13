@@ -13,7 +13,7 @@ function LogHome() {
     return (
 <div>
     <body>
-      <header className="">
+      <header className="" id='home'>
         <section className="container d-md-flex justify-content-center headerimagetext">
             <div className="header-items d-lg-flex">
                 <div className="justify-content-center">
