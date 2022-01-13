@@ -13,6 +13,9 @@ export default function Header() {
 
          <Navbar.Collapse className="collapse justify-content-lg-end">
            <Nav className="align-items-center">
+            <LinkContainer className="mx-3 fs-4 text-primary" to ={"#footer"}   >
+              <Nav.Link  href='#footer' >Contact</Nav.Link>           
+            </LinkContainer>
             <LinkContainer className="mx-3 fs-2 text-primary" to ="/" >
               <Nav.Link ></Nav.Link>           
             </LinkContainer>{loggedIn ? <PrivateNavigation /> : <PublicNavigation />}

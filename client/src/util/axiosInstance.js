@@ -3,7 +3,13 @@ import axios from 'axios';
 const axiosApiInstance = axios.create();
 
 //defining the settings for our axios instance. 
-axiosApiInstance.defaults.baseURL = 'http://localhost:3001';
+if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+    axiosApiInstance.defaults.baseURL = 'http://localhost:3001';// dev code
+} else {
+    axiosApiInstance.defaults.baseURL = 'https://matheusrenaudportfolio.herokuapp.com/'
+}
+
+
 axiosApiInstance.defaults.headers.post['Content-Type'] = 'application/json';
 axiosApiInstance.defaults.withCredentials = true;
 

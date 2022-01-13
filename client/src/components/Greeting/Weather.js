@@ -10,7 +10,7 @@ function Weather() {
     const getWeather = async() => {
         try {
             //making a get request to fetch the profile information
-            const response = await axios.get("http://localhost:3001/api/users/weather");
+            const response = await axios.get("/api/users/weather");
             if(response.status === 200){
                 setWeather(response.data.weatherResponse);
             }

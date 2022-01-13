@@ -47,7 +47,7 @@ export const ContactUs = () => {
 
         //Creating and saving formData in Database
         try {
-           const response = await axios.post("http://localhost:3001/api/users/send", data); 
+           const response = await axios.post("/api/users/send", data); 
            
            if(response.status === 200){
                //everything went well! 
