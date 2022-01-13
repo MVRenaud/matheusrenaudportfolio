@@ -4,9 +4,9 @@
 .greetingClass{
     max-width: 90vh;
     .weatherClass{
-        font-size: 3rem;
+        font-size: 2rem;
         position: absolute;
-        top: 14%;
+        top: 10%;
         left: 3%;
 
 
@@ -14,6 +14,7 @@
     }
     .messageClass{
         width: 90%;
+        height: 30%;
         position: absolute;
         top: 34%;
         left: 5%;
@@ -27,6 +28,7 @@
 @include media-breakpoint-up(md) {
     .greetingClass{
          .weatherClass{
+            font-size: 3rem;
             top: 10%;
             left: 13%;    
         }
