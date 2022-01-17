@@ -23,7 +23,7 @@ export default function Register(){
           firstname:formData.get("firstname"),//get the data from the input with name firstname
           lastname:formData.get("lastname"),//get the data from the input with name lastname
           username:formData.get('username'),//get the data from the input with name username
-          email: formData.get("email"),//...
+          email: formData.get("email").toLowerCase(),//...
           password: formData.get("password"),
         };
 

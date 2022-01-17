@@ -25,7 +25,7 @@ export const ContactUs = () => {
 
     const data = {
           name:formData.get("name"),//get the data from the input with name title
-          email:formData.get("email"),//get the data from the input with name message
+          email:formData.get("email").toLowerCase(),//get the data from the input with name message
           text:formData.get("message")
         };
       //Send message to Gmail

@@ -2,7 +2,8 @@ import axios from "../../util/axiosInstance";
 import "./Style.scss"
 import { useContext, useState } from "react";
 import { AppContext } from "../../App";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
 
 import FormWrapper from '../../components/Common/Wrapper/Wrapper'
 import ErrorMessage from "../../components/Common/ErrorMessage/ErrorMessage";
@@ -19,7 +20,7 @@ export default function Login() {
     const formData = new FormData(event.target);
 
     const data = {
-      email: formData.get("email"),
+      email: formData.get("email").toLowerCase(),
       password: formData.get("password"),
     };
 
@@ -57,6 +58,9 @@ export default function Login() {
           </div>
           <ErrorMessage isVisible= {isError} errorMessage={errorMessage} />
           <button type="submit" class="btn btn-primary">Submit</button>
+          <p className="forgot-password text-right">
+                        New user <Link to="/register">sign up?</Link>
+                    </p>
         </form>
     
       </FormWrapper>
