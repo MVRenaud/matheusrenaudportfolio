@@ -15,6 +15,7 @@ import MessageBox from "./pages/Messages/Messages";
 import LogHome from "./pages/LogHome/LogHome";
 import FeedBack from "./components/Email/FeedBack";
 import MyResume from "./pages/MyResume/MyResume";
+import MyLebenslauf from "./pages/MyResume/MyLebenslauf";
 import { ContactUs } from "./components/Email/ContactUs";
 import Footer from "./components/Footer/Footer";
 import HeaderImg from "./components/HeaderImg/HeaderImg";
@@ -73,6 +74,7 @@ function App() {
             <Route path="/messages" element={<ProtectedRoute auth={loggedIn}><MessageBox /></ProtectedRoute>} />
             <Route path="/feedback" element={<ProtectedRoute auth={loggedIn}><FeedBack /></ProtectedRoute>} />
             <Route path="/myresume" element={<ProtectedRoute auth={loggedIn}><MyResume /></ProtectedRoute>} />
+            <Route path="/mylebenslauf" element={<ProtectedRoute auth={loggedIn}><MyLebenslauf /></ProtectedRoute>} />
             <Route path="/email" element={<ProtectedRoute auth={loggedIn}><ContactUs/></ProtectedRoute>} />
           </Routes>
           <Footer />

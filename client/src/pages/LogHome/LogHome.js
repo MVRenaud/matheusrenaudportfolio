@@ -114,7 +114,7 @@ In today's economy, there's no time to waste on workers who lack the necessary s
                 <div className="card sale-card">
                 <img
                     src={HtmlImg}
-                    class="tools-logo m-auto p-2"
+                    className="tools-logo m-auto p-2"
                     alt="html-logo"
                 />
 
@@ -135,7 +135,7 @@ In today's economy, there's no time to waste on workers who lack the necessary s
                 <div className="card sale-card">
                 <img
                     src={CSS3Img}
-                    class="tools-logo m-auto p-2"
+                    className="tools-logo m-auto p-2"
                     alt="css3-logo"
                 />
 
@@ -156,7 +156,7 @@ In today's economy, there's no time to waste on workers who lack the necessary s
                 <div className="card sale-card">
                 <img
                     src={Sass}
-                    class="tools-logo m-auto p-2"
+                    className="tools-logo m-auto p-2"
                     alt="sass-logo"
                 />
 
@@ -198,7 +198,7 @@ In today's economy, there's no time to waste on workers who lack the necessary s
                 <div className="card sale-card">
                 <img
                     src={ReactImg}
-                    class="tools-logo m-auto p-2"
+                    className="tools-logo m-auto p-2"
                     alt="react-logo"
                 />
 
@@ -219,7 +219,7 @@ In today's economy, there's no time to waste on workers who lack the necessary s
                 <div className="card sale-card">
                 <img
                     src={NodeImg}
-                    class="tools-logo m-auto p-2"
+                    className="tools-logo m-auto p-2"
                     alt="Node-logo"
                 />
 

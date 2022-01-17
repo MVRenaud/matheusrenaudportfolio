@@ -1,35 +1,26 @@
 import React, {useEffect, useState} from 'react'
 import './Style.scss'
-import ProfilImg1 from '../../images/profilbild2.jpg';
-
-import GeFlag from '../../images/gerFlag.png'
-
-
+import ProfilImg1 from '../../images/profilbild2.jpg'
+import EnFlag from '../../images/enFlag.png'
 import { Link, useNavigate } from "react-router-dom";
-
 
 import Card from 'react-bootstrap/Card'
 
-function MyResume() {
+function MyLebenslauf() {
     const navigate = useNavigate();
     const [lang, setLang] = useState('')
 
     const languageFunction = async () =>{
-        if(lang==='En'){
-            setLang('De')
-            navigate("/mylebenslauf")
-        }else{
+        if(lang==='De'){
             setLang('En')
+            navigate("/myresume")
+        }else{
+            setLang('De')
         }
     }
-
     useEffect(()=>{
         languageFunction()
     }, [])
- 
-    console.log(lang);
-
-
 
 
     return (
@@ -42,27 +33,24 @@ function MyResume() {
                             alt="profileImage"
                         />
                     </div>
-                    <div className="col-md-8 textClass">
+                    <div className="col-md-8">
                         <div className="card-body">
                             <h1 className="card-title mb-3">Matheus Renaud</h1>
-                            
+                                
                             <h5 className="card-text text-md-start">WEB DEVELOPER</h5>
-                            <p className="card-text text-md-start">I'm an enthusiastic Junior
-                            Web Developer, graduating
-                            from the Digital Career
-                            Institute in
+                            <p className="card-text text-md-start">Ich bin ein begeisterter Junior
+                            Webentwickler, Abschluss
+                            aus der digitalen Karriere
+                            Institut ein
                             04.2022.
-                            Specialized in Smartphone
-                            Applications and Company
-                            Websites.
-                            I am fluent in English,
-                            German, and Portuguese
-                            additional basic knowledge in
-                            Spanish.</p>
-                            <span><img src={GeFlag}
-                                onClick={languageFunction}
-                                 className='' alt='german flag' />Auf Deutsch umzustellen</span>
-                            
+                            Spezialisiert auf Smartphones
+                            Anwendungen und Unternehmen
+                            Webseiten.
+                            Ich spreche fließend Englisch,
+                            Deutsch und Portugiesisch
+                            zusätzliche Grundkenntnisse in
+                            Spanisch.</p>
+                            <span><img src={EnFlag} onClick={languageFunction} className='' alt='english flag' />For english</span>
                         </div>
                     </div>
                 </div>
@@ -70,17 +58,16 @@ function MyResume() {
 
             <div className="container card mb-4">
                 <h2 className="card-header">
-                    Experience
+                    Arbeitserfahrung
                 </h2>
                 <div className="card-body mx-2">
-                    <h5 className="card-text mb-4 text-md-start">Tutor Teacher Assistant</h5>
+                    <h5 className="card-text mb-4 text-md-start">Tutor Lehrerassistent</h5>
                             <h6 className='card-text text-md-start'>DCI Digital Career Institute</h6>
-                            <p className='card-text text-md-start'>May 2021 - April 2022</p>
+                            <p className='card-text text-md-start'>Mai 2021 - April 2022</p>
                             <ul>
-                                <li className="card-text text-start">Support and guidance in students' learning
-                                difficulties</li>
+                                <li className="card-text text-start">Unterstützung und Anleitung bei Lernschwierigkeiten von Schülern.</li>
 
-                                <li className="card-text text-start">Support on student projects</li>
+                                <li className="card-text text-start">Unterstützung bei studentischen Projekten.</li>
 
                             </ul>
                             
@@ -88,13 +75,13 @@ function MyResume() {
                 <div className="card-body  mx-2">
                     <h5 className="card-text mb-4 text-md-start">Bar Supervisor</h5>
                             <h6 className='card-text text-md-start'>Park Inn by Radisson‎ Cologne City West</h6>
-                            <p className='card-text text-md-start'>September 2019 - October 2020</p>
+                            <p className='card-text text-md-start'>September 2019 - Oktober 2020</p>
                             <ul>
-                                <li className="card-text text-start">Training to staff</li>
+                                <li className="card-text text-start">Schulung des Personals</li>
 
-                                <li className="card-text text-start">Revision and creating new bar menus</li>
+                                <li className="card-text text-start">Überarbeitung und Erstellung neuer Barmenüs</li>
 
-                                <li className="card-text text-start">Handling customer complaints</li>
+                                <li className="card-text text-start">Bearbeitung von Kundenbeschwerden</li>
 
 
 
@@ -102,14 +89,14 @@ function MyResume() {
                             
                 </div>
                 <div className="card-body  mx-2">
-                    <h5 className="card-text mb-4 text-md-start">International Tour Guide & Operator</h5>
+                    <h5 className="card-text mb-4 text-md-start">Internationaler Reiseleiter & Veranstalter</h5>
                             <h6 className='card-text text-md-start'>New It Club Brazil</h6>
-                            <p className='card-text text-md-start'>July 2011 - July 2019</p>
+                            <p className='card-text text-md-start'>Juli 2011 - Juli 2019</p>
                             <ul>
-                                <li className="card-text text-start">Tour Groups Operation & Logistics</li>
+                                <li className="card-text text-start">Betrieb und Logistik von Reisegruppen.</li>
 
-                                <li className="card-text text-start">Guiding groups in Europe and the USA</li>
-                                <li className="card-text text-start">Developing and improving travel itineraries for groups</li>
+                                <li className="card-text text-start">Guiding-Gruppen in Europa und den USA</li>
+                                <li className="card-text text-start">Entwicklung und Verbesserung von Reiserouten für Gruppen</li>
 
                             </ul>
                             
@@ -118,10 +105,10 @@ function MyResume() {
             </div>
             <div className="container card mb-4">
                 <h2 className="card-header">
-                    Education
+                    Bildung
                 </h2>
                 <div className="card-body mx-2">
-                    <h3 className="card-text mb-4 text-md-start">Certification Full-stack Developer</h3>
+                    <h3 className="card-text mb-4 text-md-start">Zertifizierung Full-Stack-Entwickler</h3>
                     <ul>
                         <li className='card-text list-unstyled text-md-start'>DCI Digital Career Institute </li>
                         <li className='card-text list-unstyled text-md-start'>2022</li>
@@ -140,7 +127,7 @@ function MyResume() {
             </div>
             <div className="container card">
                 <h2 className="card-header">
-                    Skills
+                    Fähigkeiten
                 </h2>
                 <div className="card-body mx-2">
                     
@@ -149,8 +136,8 @@ function MyResume() {
 
                                 <li className="card-text text-start">Custom Databases</li>
                                 <li className="card-text text-start">User Interface / User Experience</li>
-                                <li className="card-text text-start">Web Design</li>
-                                <li className="card-text text-start">Full Stack Web and Multiplatform Mobile App Development</li>
+                                <li className="card-text text-start">Web-Design</li>
+                                <li className="card-text text-start">Full-Stack-Web- und Multiplattform-Mobile-App-Entwicklung</li>
 
                             </ul>
                             
@@ -164,4 +151,4 @@ function MyResume() {
     )
 }
 
-export default MyResume
+export default MyLebenslauf
