@@ -49,7 +49,7 @@ function LogHome() {
                     <li>HTML5</li>
                     <li>Sass</li>
                     <li>Bootstrap</li>
-                    <li>javascript</li>
+                    <li>JavaScript</li>
                     <li>Githup</li>
                 </ul>
                 </div>
@@ -87,14 +87,17 @@ function LogHome() {
                 <h1>Full Stack Developer</h1>
                 <br />
                 <p>
-                As a recent graduate from DCI Digit Career Institute with a Associate of Technology in Web Development, I am extremely interested in the Full Stack Developer opportunity .  I am confident that I am well-prepared to be a valuable contributor to company growth and success.
+                As a recent graduate from the DCI Digit Career Institute with an Associate of Technology in Web Development, I am extremely interested in the Full Stack Developer opportunity.  I am confident that I am well-prepared to be a valuable contributor to company growth and success.
 In today's economy, there's no time to waste on workers who lack the necessary skills and motivation. I've got what you need.
                 </p>
                 <p>
-                Through my academic journey, l I applied a strong focus on building my Node.js and React abilities. I am detail-oriented and meticulous when managing competing priorities within tight deadlines. I work best in roles where utilizing javascript allows me to make a positive impact while using creative problem-solving to resolve issues and achieve goals.
+                Through my academic journey, I applied a strong focus on building my Node.js and React abilities. I am detail-oriented and meticulous when managing competing priorities within tight deadlines. I work best in roles where utilizing JavaScript allows me to make a positive impact while using creative problem-solving to resolve issues and achieve goals.
                 </p>
                 <p>
-                My academic strengths have greatly contributed to the development of my teamwork, time-management and problem-solving skills. I bring clear and effective communicating to build professional connections with co-workers, management and customers. I would welcome the opportunity to further discuss the details of my experience and attributes which I believe will be an asset to the your team. Please review my resume for additional insight into my background. Thank you for your time and consideration.
+                My academic strengths have greatly contributed to the development of my teamwork, time-management and problem-solving skills. I bring clear and effective communicating to build professional connections with co-workers, management and customers. I would welcome the opportunity to further discuss the details of my experience and attributes which I believe will be an asset to the your team. Please review my resume for additional insight into my background. 
+                </p>
+                <p>
+                    Thank you for your time and consideration.
                 </p>
             </div>
             <div

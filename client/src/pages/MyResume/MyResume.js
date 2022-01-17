@@ -45,7 +45,7 @@ function MyResume() {
                 <div className="card-body mx-2">
                     <h5 className="card-text mb-4 text-md-start">Tutor Teacher Assistant</h5>
                             <h6 className='card-text text-md-start'>DCI Digital Career Institute</h6>
-                            <p className='card-text text-md-start'>05.2021 - 2022</p>
+                            <p className='card-text text-md-start'>Mai 2021 - April 2022</p>
                             <ul>
                                 <li className="card-text text-start">Support and guidance in students' learning
                                 difficulties</li>
@@ -58,12 +58,15 @@ function MyResume() {
                 <div className="card-body  mx-2">
                     <h5 className="card-text mb-4 text-md-start">Bar Supervisor</h5>
                             <h6 className='card-text text-md-start'>Park Inn by Radisson‎ Cologne City West September </h6>
-                            <p className='card-text text-md-start'>2019 - October 2020</p>
+                            <p className='card-text text-md-start'>September 2019 - October 2020</p>
                             <ul>
-                                <li className="card-text text-start">Support and guidance in students' learning
-                                difficulties</li>
+                                <li className="card-text text-start">Training to staff</li>
 
-                                <li className="card-text text-start">Support on student projects</li>
+                                <li className="card-text text-start">Revision and creating new bar menus</li>
+
+                                <li className="card-text text-start">Handling customer complaints</li>
+
+
 
                             </ul>
                             
@@ -91,7 +94,7 @@ function MyResume() {
                     <h3 className="card-text mb-4 text-md-start">Certification Full-stack Developer</h3>
                     <ul>
                         <li className='card-text list-unstyled text-md-start'>DCI Digital Career Institute </li>
-                        <li className='card-text list-unstyled text-md-start'>02.2022</li>
+                        <li className='card-text list-unstyled text-md-start'>2022</li>
                     </ul>           
                 </div>
                 <div className="card-body mx-2">

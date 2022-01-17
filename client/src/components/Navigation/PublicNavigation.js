@@ -9,7 +9,7 @@ export default function PublicNavigation() {
               <Nav.Link > Home</Nav.Link> 
         </LinkContainer>
         <LinkContainer className="mx-3 fs-4 active" aria-current="true" to ="/login"   >
-          <Nav.Link   > login</Nav.Link>           
+          <Nav.Link   > Login</Nav.Link>           
         </LinkContainer>
         <LinkContainer className="mx-3 fs-4 active" aria-current="true" to ="/register"   >
           <Nav.Link   >Sign up</Nav.Link>           

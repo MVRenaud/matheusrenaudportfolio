@@ -18,7 +18,7 @@ export default function Greeting() {
         
             <h1>Welcome!</h1>
             <br/>
-            <h3>Register on my website, and then login, to see my Portofolio and my CV resume. </h3>
+            <h3>Register on my website, and then login, to see my Portfolio and my CV resume. </h3>
             <br/>
             <h3>
               Come and get to know me better, let me show you what I'm capable of.
