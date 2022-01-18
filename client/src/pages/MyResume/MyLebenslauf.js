@@ -38,18 +38,11 @@ function MyLebenslauf() {
                             <h1 className="card-title mb-3">Matheus Renaud</h1>
                                 
                             <h5 className="card-text text-md-start">WEB DEVELOPER</h5>
-                            <p className="card-text text-md-start">Ich bin ein begeisterter Junior
-                            Webentwickler, Abschluss
-                            aus der digitalen Karriere
-                            Institut ein
-                            04.2022.
-                            Spezialisiert auf Smartphones
-                            Anwendungen und Unternehmen
-                            Webseiten.
-                            Ich spreche fließend Englisch,
-                            Deutsch und Portugiesisch
-                            zusätzliche Grundkenntnisse in
-                            Spanisch.</p>
+                            <p className="card-text text-md-start">Die Tätigkeit als Full-Stack Developer stellt für mich eine reizvolle berufliche Perspektive dar. Ich würde mich freuen, meine Berufslaufbahn bei Ihnen zu beginnen.
+
+Zurzeit gehe ich noch zur Schule. Meine ersten beruflichen Erfahrungen sammelte ich als Tutor am DCI Digital Career Institute in der Softwareentwicklung gewinnen.
+
+Mit mir gewinnt Ihr Unternehmen einen begeisterungsfähigen, kreativen und teamfähigen Mitarbeiter. Besonders hervorheben möchte ich meine schnelle Auffassungsgabe, mein Einfühlungsvermögen und meine Verantwortungsbereitschaft. Ich besitze gute Kenntnisse im Umgang mit JavaScript. Des Weiteren verfüge ich über fließende Deutsch- und Englischkenntnisse. Ich widme mich meinen neuen Aufgaben und Herausforderungen stets mit großer Motivation und vollem Einsatz.</p>
                             <span><img src={EnFlag} onClick={languageFunction} className='' alt='english flag' />For english</span>
                         </div>
                     </div>

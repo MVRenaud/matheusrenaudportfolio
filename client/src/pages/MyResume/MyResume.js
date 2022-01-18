@@ -50,8 +50,7 @@ function MyResume() {
                             <p className="card-text text-md-start">I'm an enthusiastic Junior
                             Web Developer, graduating
                             from the Digital Career
-                            Institute in
-                            04.2022.
+                            Institute.
                             Specialized in Smartphone
                             Applications and Company
                             Websites.
