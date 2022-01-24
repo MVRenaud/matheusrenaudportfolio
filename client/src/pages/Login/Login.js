@@ -30,7 +30,7 @@ export default function Login() {
       handleLogin(response.data.user.username);
 
       // redirect
-      navigate("/loghome");
+      navigate("/myresume");
     } catch (error) {
       console.log(error);
        setIsError(true);

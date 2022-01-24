@@ -4,7 +4,7 @@ import { createContext, useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./pages/Login/Login";
 import Logout from "./pages/Logout/Logout";
-import Greeting from "./components/Greeting/Greeting";
+// import Greeting from "./components/Greeting/Greeting";
 import ProtectedRoute from "./components/Common/ProtectedRoute";
 import NavBar from "./components/Navigation/Partials/navBar";
 import Register from "./pages/Register/Register";
@@ -66,11 +66,11 @@ function App() {
           {/* <Navigation /> */}
           {/* {loggedIn ? <Greeting /> : null} */}
           <Routes>
-            <Route path="/" element={<Greeting />} />
+            <Route path="/" element={<LogHome />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/logout" element={<Logout />} />
-            <Route path="/loghome" element={<ProtectedRoute auth={loggedIn}><LogHome /></ProtectedRoute>} />
+            {/* <Route path="/loghome" element={<ProtectedRoute auth={loggedIn}><LogHome /></ProtectedRoute>} /> */}
             <Route path="/messages" element={<ProtectedRoute auth={loggedIn}><MessageBox /></ProtectedRoute>} />
             <Route path="/feedback" element={<ProtectedRoute auth={loggedIn}><FeedBack /></ProtectedRoute>} />
             <Route path="/myresume" element={<ProtectedRoute auth={loggedIn}><MyResume /></ProtectedRoute>} />

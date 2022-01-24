@@ -1,5 +1,7 @@
 import React from 'react'
 import './LogHome.scss'
+import './Style.scss'
+import Weather from './Weather'
 import ProfilImg from '../../images/profilbild2.jpg'
 import Sass from '../../images/sass.png'
 import JsImg from '../../images/javascript.png'
@@ -9,12 +11,15 @@ import ReactImg from '../../images/reactLogo.png';
 import NodeImg from '../../images/nodeLogo.png'
 
 
+
 function LogHome() {
     return (
 <div>
-    <body>
-      <header className="" id='home'>
+
+      <div className="header" id='home'>
+        
         <section className="container d-md-flex justify-content-center headerimagetext">
+            <Weather />
             <div className="header-items d-lg-flex">
                 <div className="justify-content-center">
                     <div className="headertext fw-bolder lead">
@@ -30,14 +35,14 @@ function LogHome() {
                         alt="profileImage"
                     />
 
-                    <p className="headertextp4 text-center fw-bolder lead text-primary">
+                    {/* <p className="headertextp4 text-center fw-bolder lead text-primary">
                         I work Freelance!
-                    </p>
+                    </p> */}
                     </div>
                 </div>
             </div>
         </section>
-        </header>
+        </div>
         <main>
         <section className="container my-5">
             <div className="row justify-content-center gap-3">
@@ -229,9 +234,6 @@ In today's economy, there's no time to waste on workers who lack the necessary s
          </div>
         </section>
         </main>
-        
-        
-  </body>
 </div>
     )
 }

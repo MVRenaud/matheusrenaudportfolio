@@ -18,15 +18,25 @@ body {
   background-color: rgb(243, 240, 240);
 }
 
-header {
+.header {
   
   .headerimagetext {
     width: 80vw;
     height: 68vh;
 
     position: absolute;
-    top: 15vh;
+    top: 29vh;
     left: 10vw;
+
+    .weatherClass{
+        font-size: 1.5rem;
+        position: absolute;
+        top: -31%;
+        left: 3%;
+
+
+
+    }
 
     .header-items {
       width: 100%;
@@ -74,10 +84,10 @@ header {
             width: 30vw;
             height: 40vh;
           }
-          .headertextp4 {
-            color: lightgrey;
-            text-shadow: 0 0 3px #2c48a5, 0 0 5px #080824;
-          }
+          // .headertextp4 {
+          //   color: lightgrey;
+          //   text-shadow: 0 0 3px #2c48a5, 0 0 5px #080824;
+          // }
         }
 
         .tilt-in-top-2 {
@@ -143,9 +153,14 @@ main {
 
 
 @include media-breakpoint-up(sm) {
-   header {
+   .header {
      .headerimagetext {
        left: 15vw;
+       .weatherClass{
+        font-size: 2rem;
+        top: -28%;
+        left: 14%; 
+      }
        .header-items {
          div {
            width: 90%;
@@ -165,13 +180,19 @@ main {
 }
 
 @include media-breakpoint-up(md) {
-   header {
+   .header {
      width: 100%;
      .headerimagetext {
        width: 76vw;
        height: 68vh;
-       top: 23vh;
-       left: 17vw;
+       top: 35vh;
+       left: 16vw;
+       
+       .weatherClass{
+            font-size: 3rem;
+            top: -38%;
+            left: 18%;    
+        }
 
        .header-items {
          width: 70%;
@@ -220,11 +241,18 @@ main {
 }
 
 @include media-breakpoint-up(lg) {
-  header {
+  .header {
      .headerimagetext {
        width: 90vw;
        top: 30vh;
        left: 5vw;
+
+
+       .weatherClass{
+            font-size: 2.5rem;
+            top: -24%;
+            left: 31%;    
+        }
        .header-items {
          width: 100%;
          div {
@@ -294,8 +322,14 @@ main {
 }
 
 @include media-breakpoint-up(xl) {
-   header {
+   .header {
     .headerimagetext {
+
+      .weatherClass{
+            top: -25%;
+            left: 11%;    
+        }
+
       .header-items {
         width: 100%;
         div {
@@ -360,11 +394,16 @@ main {
 }
 @include media-breakpoint-up(xxl) {
   
- header {
+ .header {
     .headerimagetext {
      width: 100%;
-     top: 20%;
+     top: 30%;
      left: auto;
+
+     .weatherClass{
+            top: -25%;
+            left: 25%;    
+        }
      
         
       .header-items {

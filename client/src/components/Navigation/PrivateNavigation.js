@@ -7,9 +7,9 @@ export default function PrivateNavigation() {
   return (
     <>
         
-        <LinkContainer className="mx-3 fs-2 text-primary" to ="/loghome"  >
+        {/* <LinkContainer className="mx-3 fs-2 text-primary" to ="/loghome"  >
           <Nav.Link >Home</Nav.Link>           
-        </LinkContainer>
+        </LinkContainer> */}
         <LinkContainer className="mx-3 fs-3 text-primary" to ="/myresume"   >
           <Nav.Link >MyResume</Nav.Link>           
         </LinkContainer>
