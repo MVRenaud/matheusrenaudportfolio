@@ -1,4 +1,4 @@
-const Message = require("../models/Message");
+const Message = require('../models/Message');
 
 exports.send = async (req, res) => {
   const { name, email, text } = req.body;
@@ -10,9 +10,9 @@ exports.send = async (req, res) => {
       text,
     });
 
-    res.send("Message saved!");
+    res.send('Message saved!');
   } catch (error) {
-    res.status(500).send("Error saving message");
+    res.status(500).send('Error saving message');
   }
 };
 
@@ -22,6 +22,6 @@ exports.read = async (req, res) => {
 
     res.send({ data: messages });
   } catch (error) {
-    res.status(500).send("Error saving message");
+    res.status(500).send('Error saving message');
   }
 };

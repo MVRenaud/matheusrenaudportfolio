@@ -1,4 +1,4 @@
-const jwt = require("jsonwebtoken");
+const jwt = require('jsonwebtoken');
 
 /**
  * Generates the token
@@ -12,7 +12,7 @@ exports.generateToken = (user) => {
     jwt.sign(
       payload,
       process.env.JWT_SECRET,
-      { expiresIn: "1h" },
+      { expiresIn: '1h' },
       (err, asyncToken) => {
         if (err) {
           reject(err);
@@ -20,7 +20,7 @@ exports.generateToken = (user) => {
         }
 
         resolve(asyncToken);
-      }
+      },
     );
   });
 };

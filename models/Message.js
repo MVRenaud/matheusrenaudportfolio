@@ -1,4 +1,4 @@
-const { Schema, model } = require("mongoose");
+const { Schema, model } = require('mongoose');
 
 const MessageSchema = new Schema({
   name: { type: String, required: true },
@@ -7,6 +7,6 @@ const MessageSchema = new Schema({
   timeSent: { type: Date, default: Date.now },
 });
 
-const Message = model("messages", MessageSchema);
+const Message = model('messages', MessageSchema);
 
 module.exports = Message;
